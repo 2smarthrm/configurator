@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+</head>
+
+
+<body>
+    <aside class="config-container">
+
+        <div class="flex-items">
+            <div class="config-canvas">
+                <section class="cart-items d-none">
+                    <div class="center">
+                        <div class="logo">
+                            <img src="https://exportech.com.pt/static/media/logo.8ac6a2b51da306b89284.png" alt="">
+                        </div>
+                    </div>
+                    <ul>
+                    </ul>
+                    <div class="center"><br><br><br>
+                        <div class="d-block">
+                            <div class="info">
+                                <div class="ln"></div>
+                                <h1 class="total-products">#</h1>
+                                <div class="ln"></div>
+                                <h1 class="subtotal-tag">#</h1>
+                                <div class="ln"></div>
+                            </div> 
+                            <button class="btn btn-config-cart btn-primary">
+                                <i class="fa-brands fa-opencart"></i> adicionar os produtos ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <div class="main-product-box">
+                    <div class="image-ground">
+                        <div class="content">
+                            <section class="list-items">
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fg"></div>
+        <div class="config-toolbar">
+            <section class="products-section"><br>
+                <h5>Produtos disponiveis</h5>
+               <div class="alert alert-danger">
+                <small class="text-danger">Obs : configurador está apenas preparado para (1U, 2U), 
+                    as outras configurações serão adicionadas antes do lançamento do mesmo no site original.</small>
+               </div>
+                <input type="text" id="search-products" placeholder="Pesquisar..."
+                    class="col form-control search-product">
+                <ul>
+
+                </ul>
+            </section>
+            <section class="sub-components-section d-none">
+                <div class="selected-product">
+                    <img src="" alt="">
+                    <div class="block">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="toggle-product btn btn-primary col-lg-12"><i class="fa-solid fa-arrow-left"></i> Ver outros
+                    produtos</div> <br><br>
+                <h5>Componentes compativeis</h5>
+                <div class="buttons col-lg-12">
+                    <div class="d-flex col-lg-12">
+                        <select name="" id="" class="form-control col">
+                            <option disabled selected>Filtrar componentes...</option> 
+                        </select>
+                    </div>
+                    <div class="col-lg-12">
+                        <button class="btn bg-warning col-lg-12" onclick="clearAllInfo()"><i
+                                class="fa-regular fa-trash-can"></i> remover configurações</button>
+                    </div>
+                </div>
+                <article class="components-list"></article>
+            </section>
+        </div>
+    </aside>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

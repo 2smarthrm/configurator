@@ -1,0 +1,470 @@
+/***   { } */
+
+
+
+
+body .config-container  { 
+      display: flex; 
+      justify-content: space-between;
+      width:100%;
+      height: 100vh;  
+      font-family: "Poppins", serif;
+} 
+
+
+body .config-container .flex-items { 
+   display: flex;  
+   width:100%;
+} 
+
+body .config-container .cart-items { 
+ width:400px;
+ min-height:200px;
+ border-radius:10px;
+ padding-left:40px;
+} 
+
+body .config-container .cart-items .info .ln{ 
+  width:100%;
+  height: 2px; 
+  background-color:#ffff;
+  margin:10px 0px; 
+} 
+
+
+body .config-container .cart-items .info h1{ 
+  margin:10px 0px; 
+  color:#ffff;
+  font-size:20px;
+} 
+
+body .config-container .cart-items ul{ 
+   padding:0px;
+   list-style: none;
+} 
+
+body .config-container .cart-items ul li{ 
+   width:100%;
+   padding:10px 15px;
+   border-radius:6px;
+   background:#fff;
+   margin:10px 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+} 
+
+
+body .config-container .cart-items ul li span{ 
+   font-size:13px; 
+} 
+
+body .config-container .cart-items ul .image{ 
+   width:70px;
+   height:50px;
+   background-color: rgb(37, 36, 36); 
+   border-radius:6px;
+   margin-right:10px;
+   border:1px solid #dedede;
+   object-fit: contain;
+} 
+
+
+body .config-container .cart-items  .center{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+} 
+
+body .config-container .cart-items  .center button{ 
+  padding:10px 20px;
+} 
+
+
+body .config-container .logo img { 
+   max-width:240px;
+   margin-top:50px;
+   margin-bottom:20px;
+ } 
+ 
+
+body .config-container .cart-items  .center button i{ 
+   margin-right:10px;
+   font-size:20px;
+ } 
+ 
+
+body .config-container .cart-items ul .flex{ 
+  display: flex;  
+} 
+
+body .config-container .cart-items ul .flex p{ 
+    margin:0px;
+    font-size:13px;
+    color:#83878b;
+} 
+
+body .config-container .cart-items ul .flex p small{ 
+    font-weight:bold;
+} 
+
+body .config-container .components-list{  
+    min-height:450px; 
+    border-radius:10px;  
+    padding:20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body .config-container .components-list .box-component { 
+      width:100%;  
+      margin-bottom:10px;
+      border-bottom:1px solid #DEE2E6;
+      cursor: pointer; 
+      display: flex;
+      flex-direction: column;
+      padding:10px; 
+}
+
+body .config-container .components-list .box-component img{ 
+  width:max-content;
+  max-width:100%;
+  height:60px;
+  border:1px solid  #DEE2E6;
+  object-fit:contain;
+  margin-right:10px;
+  border-radius:6px;
+  background-color:rgb(251, 251, 251);
+}
+
+body .config-container .components-list .box-component h5{ 
+  font-size:15px;
+  line-height:25px;
+}
+
+ 
+
+body .config-container  h1.title{ 
+   font-size:30px; 
+   margin:0pc;
+   margin-left:10px;
+   color:#ffff; 
+}
+
+body .config-canvas{ 
+   display: flex; 
+   justify-content: center;   
+   align-items: center;
+   margin:20px 0px;
+   width:100%;
+   height:100vh;
+   max-height:100vh;
+   overflow-y: auto;
+   background: url("https://images.squarespace-cdn.com/content/v1/6269861344c82f0cce6477ea/1667944747422-E0L411SDU8GJ2MC1C9ZA/Concrete_40_Interior_2020.jpg?format=2500w");
+   background-color:silver;   
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+
+
+body .config-canvas h3{ 
+   color:#fff;
+   font-size:16px;
+}
+
+
+
+body .config-container .main-product-box { 
+    width:100%; 
+    margin:20px; 
+    width:500px;
+    border:0px solid red !important;
+     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+   background-position: center !important;
+   flex-direction: column;
+   padding:30px 40px;
+}
+
+
+body .config-container .box-component.sm .btns{ 
+ display: none !important;
+}
+
+body .config-container 
+.main-product-box .image-ground{ 
+   width:100%;
+   height:100%; 
+   position: relative;
+}
+
+
+body .config-container 
+.main-product-box .list-tems{  
+   width:100%;
+   height:100%;
+   display: flex;
+   flex-direction: column;
+   padding:0px;
+}
+
+body .config-container .main-product-box 
+.line{ 
+height:60px;
+width:100%;
+margin:2px 0px;
+border-bottom:2px dashed #ADB5BD; 
+border-right: none;
+border-left: none;
+position: relative;
+font-size:30px;
+font-weight:bolder; 
+display: flex;
+}
+
+
+body .config-container .main-product-box 
+.line:first-child{  
+border-top:2px dashed #ffff !important; 
+}
+
+body .config-container .main-product-box 
+.line .ln{
+    height:32%;
+    width:100%;
+    margin:0.5px 0px;
+    border-top:1px solid green;  
+}
+
+
+body .config-container .main-product-box  .line .box-component{ 
+    width:100% !important; 
+    height:100% !important;
+    background:rgb(37, 36, 36);
+    border:2px solid rgb(81, 81, 81);
+    position: absolute;
+    top:0px;
+    left:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size:20px;
+    color:#ADB5BD;
+    font-weight:bolder;
+    text-transform: uppercase;
+    padding:20px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+body .config-container .main-product-box
+.line .box-component img{ 
+   display: none;
+}
+
+
+body .config-container .main-product-box .line .fake-box{ 
+    background: rgb(3, 108, 255) !important;
+    border:5px solid rgb(81, 81, 81);
+    border-color: green !important;
+    width:100% !important; 
+    height:100% !important;  
+    position: absolute;
+    overflow: hidden;
+    top:0px;
+    left:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size:30px;
+    color:#ADB5BD;  
+    font-weight:bolder;
+    text-transform: uppercase;
+    padding:20px;
+}
+
+
+body .config-container .main-product-box
+.line .box-component .btns{ 
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+body .config-container .main-product-box
+.line .box-component .btns button{ 
+  width:20px;
+  height:20px;
+  margin:3px 0px;
+  border: none;
+  font-size:9px;
+  cursor: pointer;
+  border-radius:100%;
+  background:#0084ff;
+  color:#ffff;
+}
+
+body .config-container .remove{ 
+  border: none; 
+  cursor: pointer;
+  width:30px;
+  height:30px;
+  font-size:16px;
+  border:2px solid #FF4D6D; 
+  border-radius:100%;
+  min-width:30px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0px;
+  background-color: #cd143f;
+  color:#ffff;
+}
+
+
+body .config-container .main-product-box
+.line .box-component h1{ 
+   font-size:20px;
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+body .config-container .main-product-box
+.line h3{ 
+  position: absolute;
+  left:10px;
+  top:10px;
+  font-size:12px !important;
+}
+
+body .line h1 { 
+    display: flex;
+    align-items: center;
+}
+
+body small { 
+ font-size:12px !important;
+ color: #0084ff !important;
+ margin-left:10px;
+}
+
+body .line h4 { 
+  font-size:40px !important;
+  color: green !important; 
+  margin-left:100px;
+ }
+ 
+
+ body .box-component.sm { 
+    max-width:25%;
+    width:25%;
+    border:4px solid rgb(81, 81, 81) !important;
+    position: relative !important;
+    border-top:0px !important;
+    flex-direction: column !important;
+    justify-content: space-between;
+    align-items: flex-end !important;
+    padding:10px 20px !important;
+ } 
+
+ body .box-component.sm .remove{ 
+ margin:0px !important;
+} 
+
+ body .config-toolbar{ 
+    min-width:400px;
+    width:400px;
+    height:100vh;
+    padding:20px; 
+    max-height:98vh;
+    overflow-y: auto; 
+}
+ 
+
+
+body .config-toolbar .buttons .d-flex{ 
+  align-items: center;
+}
+
+
+body .config-toolbar .buttons .d-flex .btn{  
+   margin-left:10px;
+   padding:10px;
+ }
+
+body .config-toolbar .products-section ul{ 
+   padding:0px; 
+   list-style: none;
+   margin-top:20px;
+} 
+
+body .config-toolbar .products-section li{ 
+     display: flex;
+    border-bottom:1px solid #DEE2E6;
+    margin-bottom:10px; 
+    cursor: pointer;
+    transition:all 1s ease-in-out;
+    padding:10px;
+    border-radius:6px;
+} 
+
+
+body .config-toolbar .products-section li:hover{ 
+   background:#E9ECEF;
+} 
+
+
+body .config-toolbar .products-section li img{ 
+     width:90px;
+     height:80px;
+     border-radius:6px;
+     border:1px solid #DEE2E6; 
+} 
+
+body .config-toolbar .products-section li .dets{ 
+  padding-left:20px;
+} 
+
+body .config-toolbar .products-section li .dets p{ 
+ font-size:15px;    
+ color:grey;
+} 
+
+body .config-toolbar .products-section li .dets p strong{ 
+   color:#0084ff;
+} 
+
+body .config-toolbar .products-section li h2{ 
+     font-size:15px; 
+} 
+
+body .config-toolbar .buttons{ 
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+
+body .config-toolbar select{ 
+ width:100%;
+ padding:10px;
+ border-radius:6px;
+ margin:10px 0px;
+ border: 1px solid silver; 
+} 
+ 
