@@ -1142,8 +1142,7 @@ function InsertComponentToFrame(id, addstatus) {
                     }
 
                     if (StoredIndexes.length <= 1) {
-                        console.log("x = " + x, "Line = " + newLines.length + " / area = " + areaId);
-                        alert("empty bucket !");
+                        console.log("x = " + x, "Line = " + newLines.length + " / area = " + areaId); 
                         ShowAlert();
                     }
                 } else {
