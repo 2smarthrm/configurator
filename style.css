@@ -11,6 +11,10 @@ body .config-container  {
       font-family: "Poppins", serif;
 } 
 
+body .btn-config-cart { 
+   font-size:14px;
+} 
+
 
 body .config-container .flex-items { 
    display: flex;  
@@ -18,7 +22,7 @@ body .config-container .flex-items {
 } 
 
 body .config-container .cart-items { 
- width:400px;
+ min-width:300px;
  min-height:200px;
  border-radius:10px;
  padding-left:40px;
@@ -154,10 +158,10 @@ body .config-container  h1.title{
 }
 
 body .config-canvas{ 
+   padding-top:100px;
    display: flex; 
    justify-content: center;   
-   align-items: center;
-   margin:20px 0px;
+   align-items: center; 
    width:100%;
    height:100vh;
    max-height:100vh;
@@ -180,8 +184,8 @@ body .config-canvas h3{
 body .config-container .main-product-box { 
     width:100%; 
     margin:20px; 
-    width:500px;
-    border:0px solid red !important;
+    margin-top:70px !important;
+    width:500px; 
      background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
